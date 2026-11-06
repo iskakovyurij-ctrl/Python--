@@ -1,0 +1,16 @@
+[project]
+name = "matrix-spiral"
+version = "0.1.0"
+description = "Async matrix spiral traversal library"
+requires-python = ">=3.9"
+dependencies = [
+    "aiohttp>=3.9",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest>=8.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
